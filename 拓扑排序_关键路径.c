@@ -1,3 +1,4 @@
+//由于传指针，二者生效其一
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -206,3 +207,4 @@ int main(int argc, char const *argv[])
     
     return 0;
 }
+
