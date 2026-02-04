@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX 1000
+#define MAXSIZE 1000
 
 int idx=0;
 int whight[]={100,42,15,-1,-1,27,-1,-1,58,28,13,5,-1,-1,8,-1,-1,15,-1,-1,30,-1,-1};
@@ -74,4 +74,5 @@ int main(){
     printf("\n");
     printf("%d",wpl(T));
     return 0;
+
 }
