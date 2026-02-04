@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define MAX 1000
+#define MAXSIZE 1000
 
 int idx=0;
 char str[]="ABDH#K###E##CFI###G#J##";
@@ -126,4 +126,5 @@ int main(){
     printf("\n");
     printf("%d",MaxDepth(T));
     return 0;
+
 }
